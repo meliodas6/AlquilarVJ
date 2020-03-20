@@ -31,7 +31,7 @@ namespace AlquilerVJ.Win
         private void RefrescarDatos()
         {
             var listadeVentasPorProducto = _reporteVentasPorProductoBL.ObtenerVentasPorProducto();
-            listadeVentasPorProductoBindingSource.DataSource = listadeVentasPorProducto;
+            listadeVentasPorProductoBindingSource.DataSource =listadeVentasPorProducto;
             listadeVentasPorProductoBindingSource.ResetBindings(false);
         }
     }
