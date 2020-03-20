@@ -13,5 +13,11 @@ namespace AlquilerVJ.WebAdmin.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public ActionResult Index(FormCollection data)
+        {
+            return RedirectToAction("Index", "Home");
+        }
     }
 }

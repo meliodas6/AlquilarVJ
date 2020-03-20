@@ -50,7 +50,7 @@ namespace AlquilerVJ.WebAdmin.Controllers
                
                 }
                 _ordenBL.GuardarOrdenDetalle(ordenDetalle);
-                return RedirectToAction("Index", new { id = ordenDetalle.Id });
+                return RedirectToAction("Index", new { id = ordenDetalle.OrdenId });
 
             }
 
